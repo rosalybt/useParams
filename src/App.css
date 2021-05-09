@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+.img_brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
 }
@@ -45,4 +53,6 @@ ul {
 img {
   max-width: 100%;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }

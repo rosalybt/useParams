@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import img1 from "../age-of-empires-II-generacion-xbox-2.jpg";
 import "../App.css";
 
 const Empires = ({ history, location, match }) => {
@@ -17,6 +18,10 @@ const Empires = ({ history, location, match }) => {
       <h1>
         Empires
         </h1>
+      <div className="img_brand">
+        <img src={img1} alt="Brand img" />
+      </div>
+
 
       <ul>
         {productos.civilizations && productos.civilizations.map(item => (
